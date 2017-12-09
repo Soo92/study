@@ -1,0 +1,22 @@
+body, td, nobr, p, li, ol, ul{ color: #000000;  font-family: verdana, arial, helvetica; font-size: 11px; }
+a, .red { color: #A6531E; text-decoration: none; }
+a:hover { color: #FFFFFF; }
+.red:hover { color: #000000; }
+.grey {color: #666666; }
+body { scrollbar-arrow-color: #000000; scrollbar-face-color: #B2B27F; scrollbar-track-color: #E0E0CC; scrollbar-3dlight-color: #000000; scrollbar-darkshadow-color: #000000;  scrollbar-highlight-color: #FFFFFF; scrollbar-shadow-color: #666666; }
+img { border: 0; }
+
+p, a, ul, li, td, h1, h2, h3{ font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; color: #000099;}
+a { text-decoration: none; color: #CC0000; font-weight: bold;}
+a:hover { text-decoration: none; color: #000000; font-weight: bold;}
+h1 { font-size: 16px; font-weight: bold; margin-bottom: -10px;}
+h2 { font-size: 13px; font-weight: bold; margin-top: 3px;}
+h3 { font-size: 12px; font-weight: bold; margin-top: 3px;}
+.caption { font-size: 10px; color: #333333;}
+.null {color: #999999; font-weight: bold;}
+.normal { font-weight: normal;}
+.normal:hover { font-weight: normal;}
+.textonly { font-size: xx-small;}
+.textonly:hover { font-size: xx-small;}
+ 
+  
