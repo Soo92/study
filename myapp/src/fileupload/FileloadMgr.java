@@ -103,8 +103,6 @@ public class FileloadMgr {
 				pstmt.setInt(1, num[i]);
 				pstmt.executeUpdate();
 			}//for
-			
-
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

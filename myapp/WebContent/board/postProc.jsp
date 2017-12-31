@@ -3,5 +3,4 @@
 <%
 		request.setCharacterEncoding("EUC-KR");
 		mgr.insertBoard(request);
-		response.sendRedirect("list.jsp");
 %>

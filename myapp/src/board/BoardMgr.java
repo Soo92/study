@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import com.oreilly.servlet.MultipartRequest;
 import com.oreilly.servlet.multipart.DefaultFileRenamePolicy;
 
+import javafx.scene.control.Alert;
+
 public class BoardMgr {
 	
 	private DBConnectionMgr pool;
@@ -43,6 +45,8 @@ public class BoardMgr {
 			MultipartRequest multi = 
 					new MultipartRequest(req, SAVEFOLDER,MAXSIZE,
 							ENCTYPE, new DefaultFileRenamePolicy());
+			System.out.println(multi.getParameter("name"));
+			System.out.println("aaaaaaaaa");
 			String filename = null;
 			int filesize = 0;
 			if(multi.getFilesystemName("filename")!=null) {

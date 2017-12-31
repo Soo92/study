@@ -140,22 +140,3 @@ public class MemberMgr {
 	}
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
